@@ -3,9 +3,9 @@ let str = "abdba"
 let bag = "";
 for (let i=str.length-1; i>=0; i--)
   {
-    bag+=str[i];
+    bag=bag+str[i];
   }
-if (str=bag)
+if (str==bag)
 {
   console.log("string is palindrome");
 }
