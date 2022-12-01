@@ -5,7 +5,7 @@ for (let i=1; i<=input; i++)
   {
     if (input%i==0)
     {
-      count++;
+      count=count+1;
     }
   }
 if (count==2)
